@@ -76,6 +76,31 @@ input, select, textarea {
   font-size: 0.8em;
 }
 
+#contact-links {
+  margin: 1em 0;
+  padding: 0;
+  font-size: 1.2em;
+  color: #c3c3c3;
+  display: flex;
+  justify-content: space-between;
+  width: 7em;
+}
+#contact-links a {
+  color: #707070;
+  transition: color 0.15s ease;
+}
+#contact-links a:hover {
+  color: #c3c3c3;
+}
+.contact p {
+  font-size: 0.8em
+}
+.info {
+  font-style: italic;
+  letter-spacing: 0ch;
+  color: #b0b0b0;
+}
+
 /* Row */
 
 	.row {
